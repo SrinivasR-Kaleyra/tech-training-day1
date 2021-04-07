@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Hypertext vs Hyperlink
+	</title>
+
+	<style>
+		h1 {
+			color: green;
+		}
+		.container {
+			width: 800px;
+			height: 150px;
+			border: 2px solid black;
+		}
+		.img {
+			width: 200px;
+			height: 100px;
+			border: 2px solid black;
+			margin: 20px 40px;
+			float: left;
+		}
+		img {
+			width:200px;
+			height: 100px;
+		}
+		.text {
+			width: 200px;
+			height: 100px;
+			border: 2px solid black;
+			margin: 20px;
+		}
+		.graphics {
+			width: 200px;
+			height: 100px;
+			border: 2px solid black;
+			margin: 20px 40px;
+			float: right;
+		}
+		
+		svg {
+			width: 200;
+			height: 100;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<h1>GeeksforGeeks</h1>
+		
+		<b>
+			A Computer Science
+			Portal for Geeks
+		</b>
+		<br><br>
+		
+		<div class="container">
+			<div class="img">
+				<a href="https://ide.geeksforgeeks.org/">
+					<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200121141240/ide.png">
+				</a>
+			</div>
+
+			<div class="graphics">
+				<a href="https://ide.geeksforgeeks.org/">
+					<svg>
+						<circle cx="100" cy="50" r="50"
+								stroke="black" stroke-width="2"
+								fill="green" />
+					</svg>
+				</a>
+			</div>
+			
+			<div class="text">
+				<a href="https://ide.geeksforgeeks.org/">
+					<h3>GeeksforGeeks IDE</h3>
+				</a>
+			</div>
+		</div>
+	</center>
+</body>
+
+</html>
